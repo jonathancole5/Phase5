@@ -1,0 +1,83 @@
+body {
+	display: block;
+	height: 100vh-35px;
+	width: 100vh-35px;
+	margin: 0;
+	border: 35px solid grey;
+	border-radius: 25px;
+	background-color: black;
+}
+
+.green:hover {
+	/*opacity: 0.5;*/
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px rgba(255, 255, 255, 0.8) solid;
+}
+
+.main {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.brown {
+	display: flex;
+	background-image: url("images/wallp.jpg");
+	background-size: 100% 100%;
+	height:	95.731%;
+	width: 100%;
+}
+
+/*.monitor {
+	display: block;
+	height: 100%;
+	width: 100%;
+	border: 30px solid black;
+	border-radius: 10px;
+}*/
+
+.red {
+	display: flex;
+	background-image: url("images/b.png");
+	background-size: 100% 100%;
+	height: 4.269%;
+	width: 100%;
+}
+
+.black {
+	display: flex;
+	height: 100%;
+	width: 8%;
+}
+
+.yellow {
+	height: 100%;
+	width: 92%;
+}
+
+.purple {
+	/*border: 3px purple solid;*/
+	height: 100%;
+	width: 50%;
+}
+
+.green {
+	border: 1px rgba(255, 255, 255, 0.0) solid;
+	display: flex;
+	height: calc(90.731%/10);
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5%;
+}
+
+.cimg {
+	display: flex;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.img-choke{
+	max-height: 100%;
+	max-width: 100%;
+}
